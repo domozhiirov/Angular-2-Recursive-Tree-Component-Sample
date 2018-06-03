@@ -1,0 +1,22 @@
+ul {
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+mat-card {
+  display: inline-block !important;
+}
+
+.row > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul, li, .row > div > span {
+  margin-left: 2px;
+}
+
+li > div {
+  margin-left: 15px;
+}
